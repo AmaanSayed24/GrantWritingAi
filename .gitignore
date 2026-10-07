@@ -1,0 +1,68 @@
+# Grant Writing AI - .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+dist/
+build/
+*.egg-info/
+
+# Node / Frontend
+ui/node_modules/
+ui/dist/
+ui/build/
+ui/.vite/
+ui/*.local
+
+# Ollama / Models
+*.gguf
+*.bin
+models/
+.ollama/
+
+# Vector Database
+chroma_db/
+*.chroma/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# GSD (keep .planning/ committed)
+# .planning/ is intentionally NOT ignored - it's tracked
+
+# Large data
+data/
+*.pdf
+!config/*.yaml
