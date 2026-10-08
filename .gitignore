@@ -69,4 +69,5 @@ temp/
 # Large data
 data/
 *.pdf
+!tests/fixtures/*.pdf
 !config/*.yaml
