@@ -61,6 +61,10 @@ temp/
 
 # GSD (keep .planning/ committed)
 # .planning/ is intentionally NOT ignored - it's tracked
+# GSD installer-managed runtime files ARE committed for team consistency
+# (update via: npx @opengsd/gsd-core@latest --cline --local)
+# Staging area for GSD user artifacts - do not commit
+.gsd-staging/
 
 # Large data
 data/
